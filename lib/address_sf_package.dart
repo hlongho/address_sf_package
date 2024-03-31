@@ -79,7 +79,7 @@ class _AddressSfPackageState extends State<AddressSfPackage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Địa chỉ',
+              'Địa chỉ xxx',
               style: AppStyle.montserratSemiBold14_000000,
             ),
             SizedBox(
