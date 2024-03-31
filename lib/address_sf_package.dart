@@ -1,6 +1,5 @@
 import 'package:address_sf_package/responsive_util.dart';
 import 'package:flutter/material.dart';
-
 import 'package:dropdown_button2/dropdown_button2.dart';
 
 import 'address_model.dart';
