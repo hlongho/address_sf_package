@@ -24,20 +24,15 @@ Xử lý logic khi chọn Tỉnh, Quận, Xã
 
 ## code mẫu
 AddressSfPackage(
-# Trả về vị trí đã nhập vào
   onChangeAddress: (address) {
       print(address); 
   },
-
-# Trả về theo thứ tự Tỉnh, Quận, Huyện đã chọn
   onSelectedProvinceDistrictWard: (province, district, ward) {
       print(province?.name);
       print(district?.name);
       print(ward?.name);
   },
-# Path file json address
   addressPathJson: 'assets/address/address_dev.json',
-# init với address, sfid của Tỉnh, Quận, Huyện 
   initAddress: '',
   initProvince: xxxxxxx,
   initDistrict: yyyyyyy,
@@ -47,3 +42,9 @@ AddressSfPackage(
 ## cách đưa file json address vào dự án
 - lấy file json address đã export bỏ vào dự án theo path: assets/address/address_dev.json
 - Khai báo assets/address vào pubspec.yaml
+
+## Chú ý
+khi import vào mà chạy lỗi thì nhớ điều chỉnh:
+- platform :ios, '12.0' trong podfile
+hoặc 
+- mở Xcode trong target -> general -> minimum deployment -> chỉnh lên 12
