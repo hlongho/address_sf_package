@@ -8,18 +8,21 @@ class AppStyle {
   static TextStyle montserratRegular = TextStyle(
     color: ColorConstant.black,
     fontFamily: 'Montserrat',
+    package: 'address_sf_package',
     fontWeight: FontWeight.w400,
   );
 
   static TextStyle montserratSemiBold = TextStyle(
     color: ColorConstant.black,
     fontFamily: 'Montserrat',
+    package: 'address_sf_package',
     fontWeight: FontWeight.w600,
   );
 
   static TextStyle montserratBold = TextStyle(
     color: ColorConstant.black,
     fontFamily: 'Montserrat',
+    package: 'address_sf_package',
     fontWeight: FontWeight.w700,
   );
 
