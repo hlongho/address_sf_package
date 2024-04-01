@@ -22,18 +22,8 @@ flutter:
   assets:
     - assets/
     - assets/images/
-    - assets/locale/
-    - assets/address/
 
   fonts:
-    - family: Lato
-      fonts:
-        - asset: assets/fonts/LatoSemiBold.ttf
-          weight: 600
-        - asset: assets/fonts/LatoRegular.ttf
-          weight: 400
-        - asset: assets/fonts/LatoBold.ttf
-          weight: 700
     - family: Montserrat
       fonts:
         - asset: assets/fonts/MontserratBold.ttf
@@ -48,19 +38,3 @@ flutter:
           weight: 500
         - asset: assets/fonts/MontserratSemiBold.ttf
           weight: 600
-    - family: Inter
-      fonts:
-        - asset: assets/fonts/InterRegular.ttf
-          weight: 400
-        - asset: assets/fonts/InterMedium.ttf
-          weight: 500
-    - family: San Francisco Display
-      fonts:
-        - asset: assets/fonts/SanFranciscoDisplayRegular.ttf
-          weight: 400
-        - asset: assets/fonts/SanFranciscoDisplayBold.ttf
-          weight: 700
-    - family: SVN-Mont
-      fonts:
-        - asset: assets/fonts/SVNMontBold.ttf
-          weight: 700
