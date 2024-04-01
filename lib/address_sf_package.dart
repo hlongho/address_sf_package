@@ -57,7 +57,7 @@ class _AddressSfPackageState extends State<AddressSfPackage> {
           ward =
               address.firstWhere((element) => element.sfid == widget.initWard);
         } catch (e){
-          print('không tìm thấy vị trí');
+          print('không tìm thấy vị trí init');
         }
       });
     });
@@ -78,7 +78,7 @@ class _AddressSfPackageState extends State<AddressSfPackage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Địa chỉ xxx',
+              'Địa chỉ',
               style: AppStyle.montserratSemiBold14_000000,
             ),
             SizedBox(
