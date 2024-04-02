@@ -49,3 +49,6 @@ khi import vào mà chạy lỗi thì nhớ điều chỉnh:
 - platform :ios, '12.0' trong podfile
 hoặc 
 - mở Xcode trong target -> general -> minimum deployment -> chỉnh lên 12
+
+Thắc mắc gì thì vào https://github.com/hlongho/example_address_sf_package xem ví dụ nhe
+hí hí :)))
