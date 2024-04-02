@@ -45,7 +45,7 @@ AddressSfPackage(
 - Khai báo assets/address vào pubspec.yaml
 
 ## Chú ý
-khi import vào mà chạy lỗi thì nhớ điều chỉnh:
+khi import vào mà chạy lỗi trên ios thì nhớ điều chỉnh:
 - platform :ios, '12.0' trong podfile
 hoặc 
 - mở Xcode trong target -> general -> minimum deployment -> chỉnh lên 12
