@@ -2,6 +2,7 @@ Package phục vụ cho việc sử dụng data address export từ salesforce.
 để người dùng chọn vị trí từ cấp tỉnh, quận, xã và nhập địa chỉ chính xác
 
 ## Features
+Đọc data address từ data đã export
 init vị trí đã có sẵn để show thông tin sẵn có
 Tìm kiếm địa chỉ bằng cách nhập tên vào thanh search và list dropdown
 Trả về vị trí đã nhập hoặc tỉnh, quận, xã đã chọn
