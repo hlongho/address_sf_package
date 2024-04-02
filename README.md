@@ -35,9 +35,9 @@ AddressSfPackage(
   },
   addressPathJson: 'assets/address/address_dev.json',
   initAddress: '',
-  initProvince: xxxxxxx,
-  initDistrict: yyyyyyy,
-  initWard: zzzzzzz,
+  initProvince: province_sfid,
+  initDistrict: district_sfid,
+  initWard: ward_sfid,
 )
   
 ## cách đưa file json address vào dự án
