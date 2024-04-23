@@ -143,7 +143,7 @@ class _AddressSfPackageState extends State<AddressSfPackage> {
               ipad: 8,
               ipadLandscape: 8,
             )),
-            CustomBorderDropdown(
+            customBorderDropdown(
               child: DropdownButtonHideUnderline(
                 child: DropdownButton2<Address?>(
                     value: province,
@@ -252,7 +252,7 @@ class _AddressSfPackageState extends State<AddressSfPackage> {
               ipad: 8,
               ipadLandscape: 8,
             )),
-            CustomBorderDropdown(
+            customBorderDropdown(
               child: DropdownButtonHideUnderline(
                 child: DropdownButton2<Address?>(
                     value: district,
@@ -363,7 +363,7 @@ class _AddressSfPackageState extends State<AddressSfPackage> {
                 ipadLandscape: 8,
               ),
             ),
-            CustomBorderDropdown(
+            customBorderDropdown(
               child: DropdownButtonHideUnderline(
                 child: DropdownButton2<Address?>(
                     value: ward,

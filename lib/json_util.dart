@@ -15,7 +15,7 @@ class JsonUtil {
     String jsonAddress;
     jsonAddress = await rootBundle.loadString(addressPathJson);
 
-    Map<String, dynamic> map = new Map();
+    Map<String, dynamic> map = {};
     map = jsonDecode(jsonAddress);
     return AddressModel.fromJson(map).address ?? [];
   }

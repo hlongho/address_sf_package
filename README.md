@@ -11,7 +11,7 @@ Xử lý logic khi chọn Tỉnh, Quận, Xã
 Đơn giản, dễ sử dụng
 
 ## Usage
-- Hiện có 3 cách để khai báo package vào dự án:
+3 cách để khai báo package vào dự án:
 ### Download package về và bỏ vào dự án và khai báo vào pubspec.yaml
 ```
 address_sf_package:

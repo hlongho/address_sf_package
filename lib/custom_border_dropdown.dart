@@ -1,9 +1,8 @@
 import 'package:address_sf_package/responsive_util.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'color_constant.dart';
 
-Widget CustomBorderDropdown({Widget? child}) {
+Widget customBorderDropdown({Widget? child}) {
   return Container(
       alignment: Alignment.center,
       padding: EdgeInsets.fromLTRB(
@@ -14,7 +13,7 @@ Widget CustomBorderDropdown({Widget? child}) {
       ),
       decoration: BoxDecoration(
           borderRadius: const BorderRadius.all(Radius.circular(5)),
-          border: Border.all(color: ColorConstant.color_e6e6e6),
+          border: Border.all(color: ColorConstant.colorE6e6e6),
           color: Colors.white),
       height: 44,
       child: child);
