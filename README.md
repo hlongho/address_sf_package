@@ -51,6 +51,74 @@ AddressSfPackage(
 - lấy file json address đã export bỏ vào dự án theo path: assets/address/address_dev.json
 - Khai báo assets/address vào pubspec.yaml
 
+## data mẫu
+```
+{
+    "address": [
+        {
+            "sfid" : "a031m000006HSnAAAW",
+            "name" : "Thành phố Hà Nội",
+            "code__c" : "01",
+            "code_district__c" : null,
+            "code_ward__c" : null,
+            "levels__c" : null,
+            "parent__c" : null,
+            "recordtypeid" : "0121m000001paU7AAI"
+        },
+        {
+            "sfid" : "a031m000006HSnBAAW",
+            "name" : "Thành phố Hải Phòng",
+            "code__c" : "31",
+            "code_district__c" : null,
+            "code_ward__c" : null,
+            "levels__c" : null,
+            "parent__c" : null,
+            "recordtypeid" : "0121m000001paU7AAI"
+        },
+        {
+            "sfid" : "a031m000006HSnCAAW",
+            "name" : "Tỉnh Bắc Giang",
+            "code__c" : "24",
+            "code_district__c" : null,
+            "code_ward__c" : null,
+            "levels__c" : null,
+            "parent__c" : null,
+            "recordtypeid" : "0121m000001paU7AAI"
+        },
+        {
+            "sfid" : "a031m000006HSnDAAW",
+            "name" : "Tỉnh Bắc Kạn",
+            "code__c" : "06",
+            "code_district__c" : null,
+            "code_ward__c" : null,
+            "levels__c" : null,
+            "parent__c" : null,
+            "recordtypeid" : "0121m000001paU7AAI"
+        },
+        {
+            "sfid" : "a031m000006HSnEAAW",
+            "name" : "Tỉnh Bắc Ninh",
+            "code__c" : "27",
+            "code_district__c" : null,
+            "code_ward__c" : null,
+            "levels__c" : null,
+            "parent__c" : null,
+            "recordtypeid" : "0121m000001paU7AAI"
+        },
+        {
+            "sfid" : "a031m000006HSnFAAW",
+            "name" : "Tỉnh Cao Bằng",
+            "code__c" : "04",
+            "code_district__c" : null,
+            "code_ward__c" : null,
+            "levels__c" : null,
+            "parent__c" : null,
+            "recordtypeid" : "0121m000001paU7AAI"
+        }
+    ]
+}
+```
+
 ## Chú ý
 khi import vào mà chạy lỗi trên ios thì nhớ điều chỉnh:
 - platform :ios, '12.0' trong podfile
