@@ -12,12 +12,12 @@ Xử lý logic khi chọn Tỉnh, Quận, Xã
 
 ## Usage
 - Hiện có 2 cách để khai báo package vào dự án:
-  + Download package về và bỏ vào dự án và khai báo vào pubspec.yaml
+### Download package về và bỏ vào dự án và khai báo vào pubspec.yaml
 ```
 address_sf_package:
   path: ./address_sf_package
 ```
-  + Khai báo link github vào pubspec.yaml
+### Khai báo link github vào pubspec.yaml
 ```
 address_sf_package:
   git:
