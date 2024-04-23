@@ -12,6 +12,7 @@ import 'diacritics_remover.dart';
 import 'image_constant.dart';
 import 'json_util.dart';
 
+//ignore: must_be_immutable
 class AddressSfPackage extends StatefulWidget {
   Function(String) onChangeAddress;
   Function(Address?, Address?, Address?) onSelectedProvinceDistrictWard;

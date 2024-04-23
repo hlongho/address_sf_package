@@ -2,11 +2,10 @@ import 'package:address_sf_package/theme_helper.dart';
 import 'package:flutter/material.dart';
 
 import 'app_style.dart';
-import 'custom_text_style.dart';
 
 
 class CustomTextFormField extends StatelessWidget {
-  CustomTextFormField({
+  const CustomTextFormField({
     Key? key,
     this.alignment,
     this.width,
@@ -104,7 +103,7 @@ class CustomTextFormField extends StatelessWidget {
           controller: controller,
           focusNode: focusNode,
           autofocus: autofocus!,
-          style: textStyle ?? CustomTextStyles.bodySmallGray700_2,
+          style: textStyle ?? AppStyle.montserratRegular14_222020,
           obscureText: obscureText!,
           textInputAction: textInputAction,
           keyboardType: textInputType,

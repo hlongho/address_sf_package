@@ -1,7 +1,9 @@
 name: address_sf_package
-description: A new Flutter package project.
+description: Đọc data address từ data đã export
+  init vị trí đã có sẵn để show thông tin sẵn có
+  Tìm kiếm địa chỉ bằng cách nhập tên vào thanh search và list dropdown
 version: 0.0.1
-homepage:
+homepage: https://github.com/hlongho/address_sf_package.git
 
 environment:
   sdk: '>=3.1.3 <4.0.0'
@@ -11,7 +13,6 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_lints: ^2.0.0
-  flutter_html: ^3.0.0-beta.1
   dropdown_button2: ^2.3.9
   flutter_svg: ^2.0.7
   cached_network_image: ^3.2.3

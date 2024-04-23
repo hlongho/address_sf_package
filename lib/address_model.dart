@@ -7,15 +7,15 @@ class AddressModel {
     if (json['address'] != null) {
       address = <Address>[];
       json['address'].forEach((v) {
-        address!.add(new Address.fromJson(v));
+        address!.add(Address.fromJson(v));
       });
     }
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    if (this.address != null) {
-      data['address'] = this.address!.map((v) => v.toJson()).toList();
+    final Map<String, dynamic> data = <String, dynamic>{};
+    if (address != null) {
+      data['address'] = address!.map((v) => v.toJson()).toList();
     }
     return data;
   }
@@ -53,15 +53,15 @@ class Address {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['sfid'] = this.sfid;
-    data['name'] = this.name;
-    data['code__c'] = this.codeC;
-    data['code_district__c'] = this.codeDistrictC;
-    data['code_ward__c'] = this.codeWardC;
-    data['levels__c'] = this.levelsC;
-    data['parent__c'] = this.parentC;
-    data['recordtypeid'] = this.recordtypeid;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['sfid'] = sfid;
+    data['name'] = name;
+    data['code__c'] = codeC;
+    data['code_district__c'] = codeDistrictC;
+    data['code_ward__c'] = codeWardC;
+    data['levels__c'] = levelsC;
+    data['parent__c'] = parentC;
+    data['recordtypeid'] = recordtypeid;
     return data;
   }
 }
