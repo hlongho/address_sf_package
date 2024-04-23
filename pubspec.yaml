@@ -1,8 +1,6 @@
 name: address_sf_package
-description: Đọc data address từ data đã export
-  init vị trí đã có sẵn để show thông tin sẵn có
-  Tìm kiếm địa chỉ bằng cách nhập tên vào thanh search và list dropdown
-version: 0.0.1
+description: Read data address from exported data
+version: 0.0.2
 homepage: https://github.com/hlongho/address_sf_package.git
 
 environment:
