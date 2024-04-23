@@ -11,7 +11,7 @@ Xử lý logic khi chọn Tỉnh, Quận, Xã
 Đơn giản, dễ sử dụng
 
 ## Usage
-- Hiện có 2 cách để khai báo package vào dự án:
+- Hiện có 3 cách để khai báo package vào dự án:
 ### Download package về và bỏ vào dự án và khai báo vào pubspec.yaml
 ```
 address_sf_package:
@@ -26,6 +26,10 @@ address_sf_package:
 ```
 ```
 import 'package:address_sf_package/address_sf_package.dart';
+```
+### import từ pub.dev
+```
+flutter pub add address_sf_package
 ```
 
 ## code mẫu
