@@ -44,19 +44,19 @@ class AppStyle {
   static TextStyle montserratBold18 = montserratBold.copyWith(fontSize: 18);
 
   // define color montserratRegular12
-  static TextStyle montserratRegular11_ffffff =
+  static TextStyle montserratRegular11FFFFFF =
       montserratRegular11.copyWith(color: ColorConstant.white);
   static TextStyle montserratRegular11_222020 =
       montserratRegular11.copyWith(color: ColorConstant.color_222020);
-  static TextStyle montserratRegular12_ffffff =
+  static TextStyle montserratRegular12FFFFFF =
       montserratRegular12.copyWith(color: ColorConstant.white);
   static TextStyle montserratRegular12_222020 =
       montserratRegular12.copyWith(color: ColorConstant.color_222020);
   static TextStyle montserratRegular12_616264 =
       montserratRegular12.copyWith(color: ColorConstant.color_616264);
-  static TextStyle montserratRegular12_FA1C1C =
+  static TextStyle montserratRegular12FA1C1C =
       montserratRegular12.copyWith(color: ColorConstant.color_FA1C1C);
-  static TextStyle montserratRegular12_primary =
+  static TextStyle montserratRegular12Primary =
       montserratRegular12.copyWith(color: ColorConstant.primary);
   static TextStyle montserratRegular12_081013 =
       montserratRegular12.copyWith(color: ColorConstant.color_081013);
@@ -64,31 +64,31 @@ class AppStyle {
       montserratRegular12.copyWith(color: ColorConstant.color_98272B);
   static TextStyle montserratRegular12_000000 =
       montserratRegular12.copyWith(color: ColorConstant.black);
-  static TextStyle montserratRegular12_AAB0B4 =
+  static TextStyle montserratRegular12AAB0B4 =
   montserratRegular12.copyWith(color: ColorConstant.color_AAB0B4);
 
 
   // define color montserratRegular14
-  static TextStyle montserratRegular14_ffffff = montserratRegular14.copyWith(color: ColorConstant.white);
+  static TextStyle montserratRegular14FFFFFF = montserratRegular14.copyWith(color: ColorConstant.white);
   static TextStyle montserratRegular14_000000 = montserratRegular14.copyWith(color: ColorConstant.black);
-  static TextStyle montserratRegular14_primary = montserratRegular14.copyWith(color: ColorConstant.primary);
+  static TextStyle montserratRegular14Primary = montserratRegular14.copyWith(color: ColorConstant.primary);
   static TextStyle montserratRegular14_222020 = montserratRegular14.copyWith(color: ColorConstant.color_222020);
   static TextStyle montserratRegular14_616264 = montserratRegular14.copyWith(color: ColorConstant.color_616264);
   static TextStyle montserratRegular14_0057FF = montserratRegular14.copyWith(color: ColorConstant.color_0057FF);
-  static TextStyle montserratRegular14_AAB0B4 = montserratRegular14.copyWith(color: ColorConstant.color_AAB0B4);
+  static TextStyle montserratRegular14AAB0B4 = montserratRegular14.copyWith(color: ColorConstant.color_AAB0B4);
   static TextStyle montserratRegular14_6FC32D = montserratRegular14.copyWith(color: ColorConstant.color_6FC32D);
-  static TextStyle montserratRegular14_FA1C1C = montserratRegular14.copyWith(color: ColorConstant.color_FA1C1C);
+  static TextStyle montserratRegular14FA1C1C = montserratRegular14.copyWith(color: ColorConstant.color_FA1C1C);
   static TextStyle montserratRegular14_081013 = montserratRegular14.copyWith(color: ColorConstant.color_081013);
 
   // define color montserratRegular14Italic
-  static TextStyle montserratRegular14Italic_ffffff = montserratRegular14.copyWith(color: ColorConstant.white, fontStyle: FontStyle.italic);
+  static TextStyle montserratRegular14ItalicFFFFFF = montserratRegular14.copyWith(color: ColorConstant.white, fontStyle: FontStyle.italic);
   static TextStyle montserratRegular14Italic_000000 = montserratRegular14.copyWith(color: ColorConstant.black, fontStyle: FontStyle.italic);
-  static TextStyle montserratRegular14Italic_primary = montserratRegular14.copyWith(color: ColorConstant.primary, fontStyle: FontStyle.italic);
+  static TextStyle montserratRegular14ItalicPrimary = montserratRegular14.copyWith(color: ColorConstant.primary, fontStyle: FontStyle.italic);
   static TextStyle montserratRegular14Italic_222020 = montserratRegular14.copyWith(color: ColorConstant.color_222020, fontStyle: FontStyle.italic);
   static TextStyle montserratRegular14Italic_616264 = montserratRegular14.copyWith(color: ColorConstant.color_616264, fontStyle: FontStyle.italic);
 
   // define color montserratRegular16
-  static TextStyle montserratRegular16_ffffff =
+  static TextStyle montserratRegular16FFFFFF =
       montserratRegular16.copyWith(color: ColorConstant.white);
   static TextStyle montserratRegular16_000000 =
       montserratRegular16.copyWith(color: ColorConstant.black);
@@ -96,59 +96,59 @@ class AppStyle {
       montserratRegular16.copyWith(color: ColorConstant.color_222020);
 
   // define color montserratRegular18
-  static TextStyle montserratRegular18_ffffff =
+  static TextStyle montserratRegular18FFFFFF =
       montserratRegular18.copyWith(color: ColorConstant.white);
   static TextStyle montserratRegular18_000000 =
       montserratRegular18.copyWith(color: ColorConstant.black);
 
   // define color montserratSemiBold12
-  static TextStyle montserratSemiBold12_ffffff =
+  static TextStyle montserratSemiBold12FFFFFF =
       montserratSemiBold12.copyWith(color: ColorConstant.white);
   static TextStyle montserratSemiBold12_000000 =
       montserratSemiBold12.copyWith(color: ColorConstant.black);
-  static TextStyle montserratSemiBold12_primary =
+  static TextStyle montserratSemiBold12Primary =
       montserratSemiBold12.copyWith(color: ColorConstant.primary);
-  static TextStyle montserratSemiBold12_AAB0B4 =
+  static TextStyle montserratSemiBold12AAB0B4 =
       montserratSemiBold12.copyWith(color: ColorConstant.color_AAB0B4);
   static TextStyle montserratSemiBold12_222020 =
       montserratSemiBold12.copyWith(color: ColorConstant.color_222020);
 
   // define color montserratSemiBold14
-  static TextStyle montserratSemiBold14_ffffff =
+  static TextStyle montserratSemiBold14FFFFFF =
       montserratSemiBold14.copyWith(color: ColorConstant.white);
   static TextStyle montserratSemiBold14_000000 =
       montserratSemiBold14.copyWith(color: ColorConstant.black);
-  static TextStyle montserratSemiBold14_primary =
+  static TextStyle montserratSemiBold14Primary =
       montserratSemiBold14.copyWith(color: ColorConstant.primary);
   static TextStyle montserratSemiBold14_222020 =
       montserratSemiBold14.copyWith(color: ColorConstant.color_222020);
-  static TextStyle montserratSemiBold14_FA1C1C =
+  static TextStyle montserratSemiBold14FA1C1C =
       montserratSemiBold14.copyWith(color: ColorConstant.color_FA1C1C);
-  static TextStyle montserratSemiBold14_AAB0B4 =
+  static TextStyle montserratSemiBold14AAB0B4 =
       montserratSemiBold14.copyWith(color: ColorConstant.color_AAB0B4);
   static TextStyle montserratSemiBold14_0057FF =
       montserratSemiBold14.copyWith(color: ColorConstant.color_0057FF);
 
   // define color montserratSemiBold16
-  static TextStyle montserratSemiBold16_ffffff =
+  static TextStyle montserratSemiBold16FFFFFF =
       montserratSemiBold16.copyWith(color: ColorConstant.white);
   static TextStyle montserratSemiBold16_000000 =
       montserratSemiBold16.copyWith(color: ColorConstant.black);
-  static TextStyle montserratSemiBold16_FDA946 =
+  static TextStyle montserratSemiBold16FDA946 =
       montserratSemiBold16.copyWith(color: ColorConstant.color_FDA946);
   static TextStyle montserratSemiBold16_6FC32D =
       montserratSemiBold16.copyWith(color: ColorConstant.color_6FC32D);
-  static TextStyle montserratSemiBold16_FA1C1C =
+  static TextStyle montserratSemiBold16FA1C1C =
       montserratSemiBold16.copyWith(color: ColorConstant.color_FA1C1C);
 
   // define color montserratSemiBold18
-  static TextStyle montserratSemiBold18_ffffff =
+  static TextStyle montserratSemiBold18FFFFFF =
       montserratSemiBold18.copyWith(color: ColorConstant.white);
   static TextStyle montserratSemiBold18_000000 =
       montserratSemiBold18.copyWith(color: ColorConstant.black);
 
   // define color montserratBold12
-  static TextStyle montserratBold12_ffffff =
+  static TextStyle montserratBold12FFFFFF =
       montserratBold12.copyWith(color: ColorConstant.white);
   static TextStyle montserratBold12_000000 =
       montserratBold12.copyWith(color: ColorConstant.black);
@@ -156,21 +156,21 @@ class AppStyle {
       montserratBold12.copyWith(color: ColorConstant.color_222020);
 
   // define color montserratBold14
-  static TextStyle montserratBold14_ffffff = montserratBold14.copyWith(color: ColorConstant.white);
+  static TextStyle montserratBold14FFFFFF = montserratBold14.copyWith(color: ColorConstant.white);
   static TextStyle montserratBold14_000000 = montserratBold14.copyWith(color: ColorConstant.black);
   static TextStyle montserratBold14_616264 = montserratBold14.copyWith(color: ColorConstant.color_616264);
-  static TextStyle montserratBold14_FA1C1C = montserratBold14.copyWith(color: ColorConstant.color_FA1C1C);
+  static TextStyle montserratBold14FA1C1C = montserratBold14.copyWith(color: ColorConstant.color_FA1C1C);
   static TextStyle montserratBold14_222020 = montserratBold14.copyWith(color: ColorConstant.color_222020);
-  static TextStyle montserratBold14_primary = montserratBold14.copyWith(color: ColorConstant.primary);
+  static TextStyle montserratBold14Primary = montserratBold14.copyWith(color: ColorConstant.primary);
   static TextStyle montserratBold14_0057FF = montserratBold14.copyWith(color: ColorConstant.color_0057FF);
-  static TextStyle montserratBold14_AAB0B4 = montserratBold14.copyWith(color: ColorConstant.color_AAB0B4);
-  // define color montserratBold16
-  static TextStyle montserratBold16_ffffff = montserratBold16.copyWith(color: ColorConstant.white);
+  static TextStyle montserratBold14AAB0B4 = montserratBold14.copyWith(color: ColorConstant.color_AAB0B4);
+  // define color montserratBold16P
+  static TextStyle montserratBold16FFFFFF = montserratBold16.copyWith(color: ColorConstant.white);
   static TextStyle montserratBold16_000000 = montserratBold16.copyWith(color: ColorConstant.black);
-  static TextStyle montserratBold16_primary = montserratBold16.copyWith(color: ColorConstant.primary);
+  static TextStyle montserratBold16Primary = montserratBold16.copyWith(color: ColorConstant.primary);
 
   // define color montserratBold18
-  static TextStyle montserratBold18_ffffff =
+  static TextStyle montserratBold18FFFFFF =
       montserratBold18.copyWith(color: ColorConstant.white);
   static TextStyle montserratBold18_000000 =
       montserratBold18.copyWith(color: ColorConstant.black);
