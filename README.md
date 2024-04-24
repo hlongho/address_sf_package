@@ -54,9 +54,7 @@ AddressSfPackage(
 - Khai báo assets/address vào pubspec.yaml
 
 ## data mẫu
-```
-https://raw.githubusercontent.com/hlongho/address_sf_package/main/example/assets/address/address_dev.json
-```
+[data mẫu](https://raw.githubusercontent.com/hlongho/address_sf_package/main/example/assets/address/address_dev.json)
 
 ## Chú ý
 khi import vào mà chạy lỗi trên ios thì nhớ điều chỉnh:
