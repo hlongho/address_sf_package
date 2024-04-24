@@ -60,7 +60,7 @@ class _AddressSfPackageState extends State<AddressSfPackage> {
           ward =
               address.firstWhere((element) => element.sfid == widget.initWard);
         } catch (e){
-          log('không tìm thấy vị trí init');
+          log('không tìm thấy vị trí đã init');
         }
       });
     });

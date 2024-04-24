@@ -4,12 +4,11 @@ packages:
   address_sf_package:
     dependency: "direct main"
     description:
-      path: "."
-      ref: main
-      resolved-ref: "1f93cbfc02bc1b999cd27d75f69463236b621aad"
-      url: "https://github.com/hlongho/address_sf_package.git"
-    source: git
-    version: "0.0.2"
+      name: address_sf_package
+      sha256: "60b5398dbed2d722cb2df41a4eb5ef57b6e6d14ae33d2c3078b0b1fe2436c7a0"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.3"
   args:
     dependency: transitive
     description:
