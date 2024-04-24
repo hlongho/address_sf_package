@@ -50,8 +50,8 @@ AddressSfPackage(
 ```
   
 ## cách đưa file json address vào dự án
-- lấy file json address đã export bỏ vào dự án theo path: assets/address/address_dev.json
-- Khai báo assets/address vào pubspec.yaml
+> Lấy file json address đã export bỏ vào dự án theo path: assets/address/address_dev.json
+> Khai báo assets/address vào pubspec.yaml
 
 ## data mẫu
 [data mẫu](https://raw.githubusercontent.com/hlongho/address_sf_package/main/example/assets/address/address_dev.json)
