@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:address_sf_package/address_sf_package.dart';
 import 'package:flutter/material.dart';
 
@@ -43,12 +45,12 @@ class _MyHomePageState extends State<MyHomePage> {
           padding: const EdgeInsets.all(8.0),
           child: AddressSfPackage(
             onChangeAddress: (address) {
-              print(address);
+              log(address);
             },
             onSelectedProvinceDistrictWard: (province, district, ward) {
-              print(province?.name);
-              print(district?.name);
-              print(ward?.name);
+              log(province?.name ?? 'Chưa chọn tỉnh');
+              log(district?.name ?? 'Chưa chọn huyện');
+              log(ward?.name ?? 'Chưa chọn xã');
             },
             addressPathJson: 'assets/address/address_dev.json',
             initAddress: '',

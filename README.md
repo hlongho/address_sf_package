@@ -7,8 +7,6 @@ init vị trí đã có sẵn để show thông tin sẵn có
 Tìm kiếm địa chỉ bằng cách nhập tên vào thanh search và list dropdown
 Trả về vị trí đã nhập hoặc tỉnh, quận, xã đã chọn
 Xử lý logic khi chọn Tỉnh, Quận, Xã
-## Getting started
-Đơn giản, dễ sử dụng
 
 ## Usage
 3 cách để khai báo package vào dự án:
@@ -57,70 +55,7 @@ AddressSfPackage(
 
 ## data mẫu
 ```
-{
-    "address": [
-        {
-            "sfid" : "a031m000006HSnAAAW",
-            "name" : "Thành phố Hà Nội",
-            "code__c" : "01",
-            "code_district__c" : null,
-            "code_ward__c" : null,
-            "levels__c" : null,
-            "parent__c" : null,
-            "recordtypeid" : "0121m000001paU7AAI"
-        },
-        {
-            "sfid" : "a031m000006HSnBAAW",
-            "name" : "Thành phố Hải Phòng",
-            "code__c" : "31",
-            "code_district__c" : null,
-            "code_ward__c" : null,
-            "levels__c" : null,
-            "parent__c" : null,
-            "recordtypeid" : "0121m000001paU7AAI"
-        },
-        {
-            "sfid" : "a031m000006HSnCAAW",
-            "name" : "Tỉnh Bắc Giang",
-            "code__c" : "24",
-            "code_district__c" : null,
-            "code_ward__c" : null,
-            "levels__c" : null,
-            "parent__c" : null,
-            "recordtypeid" : "0121m000001paU7AAI"
-        },
-        {
-            "sfid" : "a031m000006HSnDAAW",
-            "name" : "Tỉnh Bắc Kạn",
-            "code__c" : "06",
-            "code_district__c" : null,
-            "code_ward__c" : null,
-            "levels__c" : null,
-            "parent__c" : null,
-            "recordtypeid" : "0121m000001paU7AAI"
-        },
-        {
-            "sfid" : "a031m000006HSnEAAW",
-            "name" : "Tỉnh Bắc Ninh",
-            "code__c" : "27",
-            "code_district__c" : null,
-            "code_ward__c" : null,
-            "levels__c" : null,
-            "parent__c" : null,
-            "recordtypeid" : "0121m000001paU7AAI"
-        },
-        {
-            "sfid" : "a031m000006HSnFAAW",
-            "name" : "Tỉnh Cao Bằng",
-            "code__c" : "04",
-            "code_district__c" : null,
-            "code_ward__c" : null,
-            "levels__c" : null,
-            "parent__c" : null,
-            "recordtypeid" : "0121m000001paU7AAI"
-        }
-    ]
-}
+https://raw.githubusercontent.com/hlongho/address_sf_package/main/example/assets/address/address_dev.json
 ```
 
 ## Chú ý
@@ -128,6 +63,3 @@ khi import vào mà chạy lỗi trên ios thì nhớ điều chỉnh:
 - platform :ios, '12.0' trong podfile
 hoặc 
 - mở Xcode trong target -> general -> minimum deployment -> chỉnh lên 12
-
-Thắc mắc gì thì vào https://github.com/hlongho/example_address_sf_package xem ví dụ nhe
-hí hí :)))
