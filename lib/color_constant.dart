@@ -23,7 +23,7 @@ class ColorConstant {
 
   static Color color_6FC32D = fromHex('#6FC32D');
 
-  static Color color_FA1C1C = fromHex('#FA1C1C');
+  static Color colorFA1C1C = fromHex('#FA1C1C');
 
   static Color color_98272B = fromHex('#98272B');
 

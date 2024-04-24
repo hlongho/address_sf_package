@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:address_sf_package/responsive_util.dart';
 import 'package:flutter/material.dart';
 import 'package:dropdown_button2/dropdown_button2.dart';
@@ -58,7 +60,7 @@ class _AddressSfPackageState extends State<AddressSfPackage> {
           ward =
               address.firstWhere((element) => element.sfid == widget.initWard);
         } catch (e){
-          print('không tìm thấy vị trí init');
+          log('không tìm thấy vị trí init');
         }
       });
     });

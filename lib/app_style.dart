@@ -55,7 +55,7 @@ class AppStyle {
   static TextStyle montserratRegular12_616264 =
       montserratRegular12.copyWith(color: ColorConstant.color_616264);
   static TextStyle montserratRegular12FA1C1C =
-      montserratRegular12.copyWith(color: ColorConstant.color_FA1C1C);
+      montserratRegular12.copyWith(color: ColorConstant.colorFA1C1C);
   static TextStyle montserratRegular12Primary =
       montserratRegular12.copyWith(color: ColorConstant.primary);
   static TextStyle montserratRegular12_081013 =
