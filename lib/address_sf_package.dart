@@ -59,7 +59,7 @@ class _AddressSfPackageState extends State<AddressSfPackage> {
               .firstWhere((element) => element.sfid == widget.initDistrict);
           ward =
               address.firstWhere((element) => element.sfid == widget.initWard);
-        } catch (e){
+        } catch (e) {
           log('không tìm thấy vị trí đã init');
         }
       });
@@ -149,8 +149,8 @@ class _AddressSfPackageState extends State<AddressSfPackage> {
               child: DropdownButtonHideUnderline(
                 child: DropdownButton2<Address?>(
                     value: province,
-                    hint: Text("Chọn",
-                        style: AppStyle.montserratRegular14AAB0B4),
+                    hint:
+                        Text("Chọn", style: AppStyle.montserratRegular14AAB0B4),
                     isExpanded: true,
                     dropdownStyleData: DropdownStyleData(
                       maxHeight: 400,
@@ -258,8 +258,8 @@ class _AddressSfPackageState extends State<AddressSfPackage> {
               child: DropdownButtonHideUnderline(
                 child: DropdownButton2<Address?>(
                     value: district,
-                    hint: Text("Chọn",
-                        style: AppStyle.montserratRegular14AAB0B4),
+                    hint:
+                        Text("Chọn", style: AppStyle.montserratRegular14AAB0B4),
                     isExpanded: true,
                     dropdownStyleData: DropdownStyleData(
                       maxHeight: 400,
@@ -369,8 +369,8 @@ class _AddressSfPackageState extends State<AddressSfPackage> {
               child: DropdownButtonHideUnderline(
                 child: DropdownButton2<Address?>(
                     value: ward,
-                    hint: Text("Chọn",
-                        style: AppStyle.montserratRegular14AAB0B4),
+                    hint:
+                        Text("Chọn", style: AppStyle.montserratRegular14AAB0B4),
                     isExpanded: true,
                     dropdownStyleData: DropdownStyleData(
                       maxHeight: 400,

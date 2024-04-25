@@ -10,7 +10,7 @@ class ResponsiveUtil {
   static int getFlex({int? iphone, int? ipad, int? ipadLandscape}) {
     switch (DeviceUtil.getDeviceType()) {
       case Device.iphone:
-        return iphone ?? 1 ;
+        return iphone ?? 1;
       case Device.ipad:
         return ipad ?? 1;
       case Device.ipadLandscape:
@@ -29,8 +29,11 @@ class ResponsiveUtil {
     }
   }
 
-  static int getCrossAxisCount({int? iphone, int? ipad , int? ipadLandscape ,})
-  {
+  static int getCrossAxisCount({
+    int? iphone,
+    int? ipad,
+    int? ipadLandscape,
+  }) {
     switch (DeviceUtil.getDeviceType()) {
       case Device.iphone:
         return iphone ?? 1;
@@ -40,5 +43,4 @@ class ResponsiveUtil {
         return ipadLandscape ?? 3;
     }
   }
-
 }

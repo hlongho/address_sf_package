@@ -5,6 +5,4 @@ class ImageConstant {
   static String imgArrowdown = '$imagePath/img_arrowdown.svg';
 
   static String imgEdit = '$imagePath/img_edit.svg';
-
-
 }

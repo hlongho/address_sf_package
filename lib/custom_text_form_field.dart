@@ -3,36 +3,34 @@ import 'package:flutter/material.dart';
 
 import 'app_style.dart';
 
-
 class CustomTextFormField extends StatelessWidget {
-  const CustomTextFormField({
-    super.key,
-    this.alignment,
-    this.width,
-    this.margin,
-    this.controller,
-    this.focusNode,
-    this.autofocus = false,
-    this.textStyle,
-    this.obscureText = false,
-    this.textInputAction = TextInputAction.next,
-    this.textInputType = TextInputType.text,
-    this.minLines,
-    this.maxLines,
-    this.hintText,
-    this.hintStyle,
-    this.prefix,
-    this.prefixConstraints,
-    this.suffix,
-    this.suffixConstraints,
-    this.contentPadding,
-    this.borderDecoration,
-    this.fillColor,
-    this.filled = true,
-    this.validator,
-    this.onChanged,
-    this.initialValue
-  });
+  const CustomTextFormField(
+      {super.key,
+      this.alignment,
+      this.width,
+      this.margin,
+      this.controller,
+      this.focusNode,
+      this.autofocus = false,
+      this.textStyle,
+      this.obscureText = false,
+      this.textInputAction = TextInputAction.next,
+      this.textInputType = TextInputType.text,
+      this.minLines,
+      this.maxLines,
+      this.hintText,
+      this.hintStyle,
+      this.prefix,
+      this.prefixConstraints,
+      this.suffix,
+      this.suffixConstraints,
+      this.contentPadding,
+      this.borderDecoration,
+      this.fillColor,
+      this.filled = true,
+      this.validator,
+      this.onChanged,
+      this.initialValue});
 
   final Alignment? alignment;
 
@@ -120,9 +118,10 @@ class CustomTextFormField extends StatelessWidget {
         prefixIcon: prefix,
         prefixIconConstraints: prefixConstraints,
         suffixIcon: suffix,
-        suffixIconConstraints: suffixConstraints ?? const BoxConstraints(
-          maxHeight: 44,
-        ),
+        suffixIconConstraints: suffixConstraints ??
+            const BoxConstraints(
+              maxHeight: 44,
+            ),
         isDense: true,
         contentPadding: contentPadding ??
             const EdgeInsets.only(
@@ -162,9 +161,9 @@ class CustomTextFormField extends StatelessWidget {
 /// Extension on [CustomTextFormField] to facilitate inclusion of all types of border style etc
 extension TextFormFieldStyleHelper on CustomTextFormField {
   static OutlineInputBorder get fillGray => OutlineInputBorder(
-    borderRadius: BorderRadius.circular(6),
-    borderSide: BorderSide.none,
-  );
+        borderRadius: BorderRadius.circular(6),
+        borderSide: BorderSide.none,
+      );
   static OutlineInputBorder get fillPrimary => const OutlineInputBorder(
         borderRadius: BorderRadius.only(
           topLeft: Radius.circular(

@@ -32,7 +32,8 @@ class CustomImageView extends StatelessWidget {
 
   ///a [CustomImageView] it can be used for showing any type of images
   /// it will shows the placeholder image if image is not found on network image
-  CustomImageView({super.key,
+  CustomImageView({
+    super.key,
     this.url,
     this.imagePath,
     this.svgPath,
@@ -101,12 +102,8 @@ class CustomImageView extends StatelessWidget {
       return SizedBox(
         height: height,
         width: width,
-        child: SvgPicture.asset(
-          svgPath!,
-          height: height,
-          width: width,
-          fit: fit ?? BoxFit.contain
-        ),
+        child: SvgPicture.asset(svgPath!,
+            height: height, width: width, fit: fit ?? BoxFit.contain),
       );
     } else if (file != null && file!.path.isNotEmpty) {
       return Image.file(
@@ -131,12 +128,8 @@ class CustomImageView extends StatelessWidget {
             backgroundColor: Colors.grey.shade100,
           ),
         ),
-        errorWidget: (context, url, error) => SvgPicture.asset(
-          placeHolder,
-          height: height,
-          width: width,
-          fit: BoxFit.cover
-        ),
+        errorWidget: (context, url, error) => SvgPicture.asset(placeHolder,
+            height: height, width: width, fit: BoxFit.cover),
       );
     } else if (imagePath != null && imagePath!.isNotEmpty) {
       return Image.asset(

@@ -33,13 +33,13 @@ class Address {
 
   Address(
       {this.sfid,
-        this.name,
-        this.codeC,
-        this.codeDistrictC,
-        this.codeWardC,
-        this.levelsC,
-        this.parentC,
-        this.recordtypeid});
+      this.name,
+      this.codeC,
+      this.codeDistrictC,
+      this.codeWardC,
+      this.levelsC,
+      this.parentC,
+      this.recordtypeid});
 
   Address.fromJson(Map<String, dynamic> json) {
     sfid = json['sfid'];
