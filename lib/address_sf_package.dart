@@ -47,6 +47,7 @@ class _AddressSfPackageState extends State<AddressSfPackage> {
   Address? district;
   Address? ward;
 
+  /// init data
   initAddress() {
     JsonUtil.instance.getAddress(widget.addressPathJson).then((value) {
       setState(() {

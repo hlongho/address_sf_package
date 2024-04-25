@@ -1,3 +1,4 @@
+/// Class AddressModel return from file data
 class AddressModel {
   List<Address>? address;
 
@@ -22,15 +23,31 @@ class AddressModel {
 }
 
 class Address {
+  /// sfid of address
   String? sfid;
+
+  /// Address name
   String? name;
+
+  /// codeC
   String? codeC;
+
+  /// code District
   String? codeDistrictC;
+
+  /// code Ward
   String? codeWardC;
+
+  /// levels
   String? levelsC;
+
+  /// parent address
   String? parentC;
+
+  /// record type id
   String? recordtypeid;
 
+  /// Khởi tạo
   Address(
       {this.sfid,
       this.name,
@@ -41,6 +58,7 @@ class Address {
       this.parentC,
       this.recordtypeid});
 
+  /// Map to model
   Address.fromJson(Map<String, dynamic> json) {
     sfid = json['sfid'];
     name = json['name'];
@@ -52,6 +70,7 @@ class Address {
     recordtypeid = json['recordtypeid'];
   }
 
+  /// model to json
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
     data['sfid'] = sfid;

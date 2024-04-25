@@ -1,6 +1,6 @@
 name: address_sf_package
-description: Read data address from exported data from saleforce, handle data and show UI
-version: 0.0.3
+description: Read data address from exported data from salesforce, handle data and show UI
+version: 0.0.4
 homepage: https://github.com/hlongho/address_sf_package.git
 
 environment:
